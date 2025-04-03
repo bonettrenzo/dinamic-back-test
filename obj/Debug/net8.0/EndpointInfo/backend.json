@@ -81,17 +81,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cita"
+                "$ref": "#/components/schemas/CitaCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cita"
+                "$ref": "#/components/schemas/CitaCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Cita"
+                "$ref": "#/components/schemas/CitaCreateDTO"
               }
             }
           }
@@ -833,6 +833,28 @@
           },
           "medico": {
             "$ref": "#/components/schemas/Medico"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CitaCreateDTO": {
+        "type": "object",
+        "properties": {
+          "especialidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaHora": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "estado": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMedico": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

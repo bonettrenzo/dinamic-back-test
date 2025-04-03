@@ -16,31 +16,37 @@ namespace backend.Repository
 
         public async Task<IEnumerable<Cita>> GetAll()
         {
-            return await _context.Citas.Include(c => c.Medico).ToListAsync();
+            return await _context.Citas
+                .Include(c => c.Medico) 
+                .ToListAsync();
         }
 
         public async Task<Cita> GetById(int id)
         {
-            return await _context.Citas.Include(c => c.Medico)
-                                       .FirstOrDefaultAsync(c => c.Id == id);
+            return await _context.Citas
+                .Include(c => c.Medico) 
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task<IEnumerable<Cita>> GetByMedicoId(int medicoId)
         {
-            return await _context.Citas.Include(c => c.Medico)
-                                       .Where(c => c.IdMedico == medicoId)
-                                       .ToListAsync();
+            return await _context.Citas
+                .Where(c => c.IdMedico == medicoId)
+                .Include(c => c.Medico) 
+                .ToListAsync();
         }
 
         public async Task<IEnumerable<Cita>> GetByEspecialidad(string especialidad)
         {
-            return await _context.Citas.Include(c => c.Medico)
-                                       .Where(c => c.Especialidad == especialidad)
-                                       .ToListAsync();
+            return await _context.Citas
+                .Where(c => c.Especialidad == especialidad)
+                .Include(c => c.Medico) 
+                .ToListAsync();
         }
 
         public async Task Add(Cita cita)
         {
+            cita.Medico = null; 
             await _context.Citas.AddAsync(cita);
             await _context.SaveChangesAsync();
         }

@@ -1,6 +1,7 @@
 ﻿using backend.Model;
 using backend.Interface;
 using Microsoft.AspNetCore.Mvc;
+using backend.DTOs;
 
 namespace backend.Controllers
 {
@@ -15,7 +16,6 @@ namespace backend.Controllers
             _citaRepository = citaRepository;
         }
 
-        // Obtener todas las citas
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Cita>>> GetAll()
         {
@@ -23,7 +23,6 @@ namespace backend.Controllers
             return Ok(citas);
         }
 
-        // Obtener una cita por ID
         [HttpGet("{id}")]
         public async Task<ActionResult<Cita>> GetById(int id)
         {
@@ -35,7 +34,6 @@ namespace backend.Controllers
             return Ok(cita);
         }
 
-        // Obtener citas por MedicoId
         [HttpGet("medico/{medicoId}")]
         public async Task<ActionResult<IEnumerable<Cita>>> GetByMedicoId(int medicoId)
         {
@@ -43,21 +41,28 @@ namespace backend.Controllers
             return Ok(citas);
         }
 
-        // Obtener citas por especialidad
         [HttpGet("especialidad/{especialidad}")]
         public async Task<ActionResult<IEnumerable<Cita>>> GetByEspecialidad(string especialidad)
         {
             var citas = await _citaRepository.GetByEspecialidad(especialidad);
             return Ok(citas);
         }
-        
-        // Crear una nueva cita
+
         [HttpPost]
-        public async Task<ActionResult<Cita>> Create(Cita cita)
+        public async Task<ActionResult<Cita>> Create([FromBody] CitaCreateDTO citaDto)
         {
+            var cita = new Cita
+            {
+                Especialidad = citaDto.Especialidad,
+                FechaHora = citaDto.FechaHora,
+                Estado = citaDto.Estado,
+                IdMedico = citaDto.IdMedico
+            };
+
             await _citaRepository.Add(cita);
             return CreatedAtAction(nameof(GetById), new { id = cita.Id }, cita);
         }
+    
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, Cita cita)
@@ -83,9 +88,5 @@ namespace backend.Controllers
             await _citaRepository.Delete(id);
             return NoContent();
         }
-
     }
-
-
 }
-

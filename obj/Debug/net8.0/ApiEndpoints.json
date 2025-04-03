@@ -44,8 +44,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cita",
-        "Type": "backend.Model.Cita",
+        "Name": "citaDto",
+        "Type": "backend.DTOs.CitaCreateDTO",
         "IsRequired": true
       }
     ],
