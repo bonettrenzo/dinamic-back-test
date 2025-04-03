@@ -1,4 +1,6 @@
-﻿namespace backend.Interface
+﻿using backend.Model;
+
+namespace backend.Interface
 {
     public interface IPacienteRepository
     {

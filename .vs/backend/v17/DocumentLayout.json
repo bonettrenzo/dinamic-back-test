@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\proyectos\\dinamic-test\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\repository\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:repository\\pacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\model\\pacientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:model\\pacientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\repository\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:repository\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\interface\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:interface\\ipacienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\interface\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:interface\\icitarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\model\\citamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:model\\citamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\model\\medicomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:model\\medicomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PacienteRepository.cs",
-              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Repository\\PacienteRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PacienteRepository.cs",
-              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Repository\\PacienteRepository.cs",
-              "RelativeToolTip": "Repository\\PacienteRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CitaController.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "Controllers\\CitaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:37:12.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPacienteRepository.cs",
-              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Interface\\IPacienteRepository.cs",
-              "RelativeDocumentMoniker": "Interface\\IPacienteRepository.cs",
-              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Interface\\IPacienteRepository.cs",
-              "RelativeToolTip": "Interface\\IPacienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:30:13.15Z",
+              "WhenOpened": "2025-04-03T03:05:30.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PacienteModel.cs",
-              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Model\\PacienteModel.cs",
-              "RelativeDocumentMoniker": "Model\\PacienteModel.cs",
-              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Model\\PacienteModel.cs",
-              "RelativeToolTip": "Model\\PacienteModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Title": "CitaRepository.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Repository\\CitaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CitaRepository.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Repository\\CitaRepository.cs",
+              "RelativeToolTip": "Repository\\CitaRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAywEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:19:50.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T03:05:17.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICitaRepository.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Interface\\ICitaRepository.cs",
+              "RelativeDocumentMoniker": "Interface\\ICitaRepository.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Interface\\ICitaRepository.cs",
+              "RelativeToolTip": "Interface\\ICitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:05:09.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitaModel.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Model\\CitaModel.cs",
+              "RelativeDocumentMoniker": "Model\\CitaModel.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Model\\CitaModel.cs",
+              "RelativeToolTip": "Model\\CitaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:03:40.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:20:52.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicoModel.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Model\\MedicoModel.cs",
+              "RelativeDocumentMoniker": "Model\\MedicoModel.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Model\\MedicoModel.cs",
+              "RelativeToolTip": "Model\\MedicoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:19:35.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:18:08.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AuthRepository.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "Repository\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:17:55.546Z"
             }
           ]
         }

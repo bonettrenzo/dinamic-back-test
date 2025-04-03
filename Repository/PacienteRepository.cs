@@ -1,17 +1,18 @@
-﻿using backend.Interface;
+﻿using backend.Context;
 using backend.Model;
+using backend.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace backend.Repository
 {
     public class PacienteRepository : IPacienteRepository
     {
-        private readonly ApplicationDbContext _context;
+        private readonly AppDbContext _context;
 
-        public PacienteRepository(ApplicationDbContext context)
+        public PacienteRepository(AppDbContext context)
         {
             _context = context;
         }
-
 
         public async Task<IEnumerable<Paciente>> GetAll()
         {
@@ -20,13 +21,12 @@ namespace backend.Repository
 
         public async Task<Paciente> GetById(int id)
         {
-            return await _context.Pacientes.FindAsync(id);
+            return await _context.Pacientes.FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<Paciente> GetByDocumento(string documento)
         {
-            return await _context.Pacientes
-                                 .FirstOrDefaultAsync(p => p.Documento == documento);
+            return await _context.Pacientes.FirstOrDefaultAsync(p => p.Documento == documento);
         }
 
         public async Task Add(Paciente paciente)
