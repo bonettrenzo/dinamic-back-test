@@ -1,19 +1,19 @@
+# Etapa 1: build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR webapp
+WORKDIR /app
 
-EXPOSE 80
-EXPOSE 5000
-
-#COPY PROJECT FILE
-COPY ./*.csproj ./
+COPY *.csproj ./
 RUN dotnet restore
 
-#COPY EVERYTHING ELSE
-COPY . .
+COPY . ./
 RUN dotnet publish -c Release -o out
 
-#BUILD IMAGE 
-FROM mcr.microsoft.com/dotnet/sdk:8.0
-WORKDIR /webapp
-COPY --from=build /webapp/out .
+# Etapa 2: runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out .
+
+ENV ASPNETCORE_URLS=http://+:10000
+EXPOSE 10000
+
 ENTRYPOINT ["dotnet", "backend.dll"]
