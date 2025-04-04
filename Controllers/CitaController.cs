@@ -88,5 +88,22 @@ namespace backend.Controllers
             await _citaRepository.Delete(id);
             return NoContent();
         }
+   
+
+    [HttpPut("disponibilidad/{id}")]
+        public async Task<IActionResult> ActualizarDisponibilidad(int id, [FromBody] DisponibilidadDTO disponibilidadDto)
+        {
+            var cita = await _citaRepository.GetById(id);
+            if (cita == null)
+            {
+                return NotFound(new { message = "Cita no encontrada" });
+            }
+
+            cita.Estado = disponibilidadDto.Disponible;
+            await _citaRepository.UpdateEstado(id, cita.Estado);
+
+            return Ok(new { message = "Disponibilidad actualizada correctamente", cita });
+        }
+
     }
 }

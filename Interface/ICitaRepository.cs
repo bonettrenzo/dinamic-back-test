@@ -11,5 +11,7 @@ namespace backend.Interface
         Task Add(Cita cita);
         Task Update(Cita cita);
         Task Delete(int id);
+        Task UpdateEstado(int id, string estado);
+
     }
 }

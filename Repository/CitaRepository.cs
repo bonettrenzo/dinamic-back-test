@@ -40,9 +40,12 @@ namespace backend.Repository
         {
             return await _context.Citas
                 .Where(c => c.Especialidad == especialidad)
-                .Include(c => c.Medico) 
+                .OrderByDescending(c => c.FechaHora) 
+                .Take(5) 
+                .Include(c => c.Medico)
                 .ToListAsync();
         }
+
 
         public async Task Add(Cita cita)
         {
@@ -66,5 +69,16 @@ namespace backend.Repository
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task UpdateEstado(int id, string estado)
+        {
+            var cita = await _context.Citas.FindAsync(id);
+            if (cita != null)
+            {
+                cita.Estado = estado;
+                await _context.SaveChangesAsync();
+            }
+        }
+
     }
 }
