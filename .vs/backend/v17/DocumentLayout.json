@@ -11,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\migrations\\20250402142929_addtablecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:migrations\\20250402142929_addtablecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A36B0C10-318D-49ED-A136-7F38CAEBEDBB}|backend.csproj|c:\\proyectos\\dinamic-test\\backend\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +42,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250402142929_AddTableCita.cs",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Migrations\\20250402142929_AddTableCita.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250402142929_AddTableCita.cs",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Migrations\\20250402142929_AddTableCita.cs*",
+              "RelativeToolTip": "Migrations\\20250402142929_AddTableCita.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T13:44:58.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T02:49:17.228Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -57,9 +91,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:27:29.296Z"
+              "WhenOpened": "2025-04-03T22:27:29.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\proyectos\\dinamic-test\\backend\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-03T22:19:29.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CitaRepository.cs",
               "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Repository\\CitaRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CitaRepository.cs",
@@ -97,11 +132,12 @@
               "RelativeToolTip": "Repository\\CitaRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowCwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:47:13.543Z"
+              "WhenOpened": "2025-04-03T20:47:13.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CitaController.cs",
               "DocumentMoniker": "C:\\proyectos\\dinamic-test\\backend\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "Controllers\\CitaController.cs",
@@ -109,7 +145,8 @@
               "RelativeToolTip": "Controllers\\CitaController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T20:46:26.939Z"
+              "WhenOpened": "2025-04-03T20:46:26.939Z",
+              "EditorCaption": ""
             }
           ]
         }

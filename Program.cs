@@ -2,9 +2,9 @@ using backend.Context;
 using backend.Interface;
 using backend.Repository;
 using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL; 
 
 var builder = WebApplication.CreateBuilder(args);
-
 
 var MyAllowAllOrigins = "_myAllowAllOrigins";
 
@@ -27,16 +27,14 @@ builder.Services.AddScoped<IMedicoRepository, MedicoRepository>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<ICitaRepository, CitaRepository>();
 
-
 var conecctionString = builder.Configuration.GetConnectionString("Connection");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conecctionString));
 
-
-
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(conecctionString));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
